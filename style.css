@@ -19,9 +19,12 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-section{
+.flex-container{
     display: flex;
     margin-bottom: 150px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 
 }
 .half-width{
@@ -34,6 +37,9 @@ section{
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
 }
 .peter-text{
     color: orange;
@@ -49,3 +55,17 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+ .box-shadow{
+      
+     width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid ;
+    border-radius: 5px;
+ }
+ .exp{
+     
+ }
