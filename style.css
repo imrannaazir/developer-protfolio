@@ -68,11 +68,17 @@ h2{
      
  }
  #baby{
-     border-left: 5px solid;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-radius: 5px;
  }
  #full-stack{
      border-left: 5px solid;
      border-image: linear-gradient(purple, tomato);
      border-image-slice: 1;
      border-radius: 5px;
+ }
+ footer p{
+    text-align: center;
  }
